@@ -1,1 +1,6 @@
 *.pyc
+.floydexpt
+.floydignore
+floyd.yml
+data/img/*.jpeg
+data/img/out/*.jpeg
