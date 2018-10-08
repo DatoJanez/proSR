@@ -1,0 +1,6 @@
+env: pytorch-0.4
+
+task:
+  test:
+    machine: gpu
+    command: test.py -i /data/img/in -o /data/img/out -c /data/check/proSRGAN_x8.pth -s 8
